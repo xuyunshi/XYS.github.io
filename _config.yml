@@ -13,10 +13,9 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
-twitter_username:   huxpro
+weibo_username:     
+zhihu_username:     荒驰
+github_username:    
 
 
 permalink: pretty
