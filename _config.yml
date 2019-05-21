@@ -1,51 +1,26 @@
 # Site settings
-title: XYS
-SEOTitle: XYS's Blog
-header-img: img/home-bg.jpg
+name: XYS's Blog
 email: zjxuyunshi@gmail.com
-description: "一个野蛮的iOS开发者"
-keyword: "xys"
-url: ""              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+author: XYS
+url: ''
+resume_site: ''
+github: https://github.com/xuyunshi/
+baseurl: ''
+description: 一个野蛮的iOS开发者
+meta_description: meta 一个野蛮的iOS开发者
+motto: 一个野蛮的iOS开发者
+banner: 一个野蛮的iOS开发者。
 
-# Publish posts or collection documents with a future date.
-future: true
-
-# SNS settings
-RSS: false
-weibo_username:     
-zhihu_username:     xu-yun-shi-88
-github_username:    xuyunshi
-
-
-permalink: pretty
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
+github_username: xuyunshi
 
-plugins: [jekyll-paginate]
-
+# Build settings
 markdown: kramdown
-kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
 
+baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
 
-
-# Disqus settings
-disqus_username: xuyunshi
-
-netease_comment: false
-
-sidebar: true                           # whether or not using Sidebar.
-
-# Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
-
-# Progressive Web Apps
-chrome-tab-theme-color: "#000000"
-service-worker: true
-
-theme: jekyll-theme-cayman
