@@ -11,6 +11,8 @@ meta_description: meta 一个野蛮的iOS开发者
 motto: 一个野蛮的iOS开发者
 banner: 一个野蛮的iOS开发者。
 
+disqus_username: xuyunshi
+
 #permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/
 paginate: 10
