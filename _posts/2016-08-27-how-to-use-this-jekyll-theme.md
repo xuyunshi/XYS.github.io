@@ -31,7 +31,7 @@ git clone https://github.com/luoyan35714/LessOrMore.git
 ```
 
 配置							{#Configuration}
-------------------------------------
+---------------------------------------
 
 `LessOrMore`项目需要配置的只有一个文件`_config.yml`，打开之后按照如下进行配置。
 
