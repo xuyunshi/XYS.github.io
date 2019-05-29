@@ -2,16 +2,14 @@
 name: XYS's Blog
 email: zjxuyunshi@gmail.com
 author: XYS
-url: ''
-resume_site: ''
+url: https://xuyunshi.github.io
+resume_site:
 github: https://github.com/xuyunshi/
-baseurl: ''
-description: 一个野蛮的iOS开发者
-meta_description: meta 一个野蛮的iOS开发者
-motto: 一个野蛮的iOS开发者
-banner: 一个野蛮的iOS开发者。
-
-disqus_username: xuyunshi
+baseurl:
+description: a normal iOS developer
+meta_description:
+motto: bold and careful
+banner:
 
 #permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/
@@ -24,5 +22,5 @@ github_username: xuyunshi
 # Build settings
 markdown: kramdown
 
-baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
-
+baidu_analysis: ad1ae4d297ff7e7610a1604dd472d915
+revolvermaps: 5nvwnibrakl
